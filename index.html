@@ -34,11 +34,14 @@
     </div>
 
     <script id="user-basic-info-template" type="text/x-handlebars-template">
-        <div> <img id="profile-pic" src="{{picture}}"> </div>
-        <div>
-            <p class="user-info"> {{ first }} {{ last }} </p><br>
-            <p class="user-info"> {{ city }}, {{ state }} </p>
-        </div>
+        <img id="profile-pic" src="{{picture}}">
+        <span id="info">
+           <p class="user-info"> {{ first }} {{ last }} </p><br>
+          <p class="user-info"> {{ city }}, {{ state }} </p>
+        </span>
+
+
+
     </script>
 
     <script id="user-quote-template" type="text/x-handlebars-template">

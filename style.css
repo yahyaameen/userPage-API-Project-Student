@@ -16,17 +16,6 @@ body {
     grid-template-rows: 1fr 1fr 3fr;
 }
 
-
-/* .user-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #3498db;
-    padding: 1vmax;
-    box-shadow: 1px 1px 3px black;
-    border-bottom-right-radius: 4px;
-} */
-
 .user-container {
     align-self: start;
     grid-row: 1;
@@ -133,7 +122,16 @@ button {
     border-bottom: 1px solid #2c3e50;
 }
 
+.meat-container {
+    margin: 10px 0 0 10px;
+}
+
 .meat-text {
     padding: 1vw;
     font-size: 1vmax;
+}
+
+#info {
+    position: absolute;
+    margin: 10px 0 0 10px;
 }
