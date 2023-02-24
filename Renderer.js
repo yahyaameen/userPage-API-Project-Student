@@ -45,7 +45,7 @@ class Renderer {
         const template = Handlebars.compile(source)
         const newHTML = template({
             pokemonImage: pokemon.picture,
-            pokemonText: pokemon.name
+            pokemonText: pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)
         })
         $('.pokemon-container').append(newHTML)
     }
